@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
+image = Image.open('EvanP.jpg')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
@@ -20,12 +20,13 @@ except:
     pass
 
 st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
+st.write(' I prepare for the noble war. I'm calm, I know the secret. I know whats coming and I know no one 
+can stop me not even myself. I kill people I like. Some of them beg for their life. I don't feel sad. I don't 
+feel anything. It's a filthy world we live, in its a filthy goddamn world and honestly I feel like I'm helping 
+to take them away from the shit and the piss and the vomit that run through the streets. I'm helping to take them 
+to somewhere clean. There's something about all that blood man i drown it. ' 
          '  '
-         ' Franz Kafka.'
+         ' Tate Langdon.'
         
         )
            
