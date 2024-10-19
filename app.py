@@ -20,15 +20,14 @@ except:
     pass
 
 st.subheader("Una pequeña Fábula.")
-st.write(' I prepare for the noble war. I'm calm, I know the secret. I know whats coming and I know no one 
-'can stop me not even myself. I kill people I like. Some of them beg for their life. I don't feel sad. I don't '
-'feel anything. It's a filthy world we live, in its a filthy goddamn world and honestly I feel like I'm helping '
-'to take them away from the shit and the pis and the vom that run through the streets. I'm helping to take them '
-'to somewhere clean. There's something about all that blood man i drown it. ' 
-         '  '
-         ' Tate Langdon.'
-        
-        )
+st.write("""I prepare for the noble war. I'm calm, I know the secret. I know what's coming and I know no one 
+can stop me, not even myself. I kill people I like. Some of them beg for their life. I don't feel sad. I don't 
+feel anything. It's a filthy world we live in, it's a filthy goddamn world and honestly, I feel like I'm helping 
+to take them away from the shit and the piss and the vomit that run through the streets. I'm helping to take them 
+to somewhere clean. There's something about all that blood, man, I drown in it.
+
+Tate Langdon.
+""")
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
